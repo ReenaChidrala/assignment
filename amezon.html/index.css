@@ -1,0 +1,198 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    padding: 0 40px 0 40px;
+    background-color: black;
+    color: white;
+    height: 10vh;
+    gap: 19px;
+}
+.navbar img{
+    width: 50px;
+        border-radius: 50%;
+}
+.search{
+    width: 100%;
+    height: 50%;
+    padding: 10px;
+    border-radius: 10px;
+}
+.baner{
+    height: 90vh;
+    background-image: url(https://images-eu.ssl-images-amazon.com/images/G/31/Events/img24/PD24/GW/PD24_GW_PC_Hero_DR_2x_EN_V2._CB570226133_.jpg);
+    display: flex;
+    justify-content: center;
+    align-items:flex-end;
+    color: white;
+    background-size: cover;
+   background-position: center;
+   text-align: center;
+}
+.content{
+    margin-bottom:10%;
+    font-weight: bold;
+
+}
+.shoping{
+    background-color: #f5f5f5;
+    display: flex;
+    padding:32px;
+    justify-content:space-between;
+    gap: 32px;
+  /* position: relative; */
+  border-radius:20px;
+  margin-top: -40px;
+}
+.leftcontent{
+    background-color: #eee;
+    width: 70%;
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.ximg{
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    overflow-x: scroll;
+    border-top-left-radius:1rem;
+    border-top-right-radius: 10px;
+    background-color: white;
+    gap: 16px;
+    padding: 10px;
+}
+.ximg img{
+   height: 190px;
+   width: 180px;
+   height:auto; 
+   object-fit: contain;
+}
+.add{
+    position:sticky;
+    top:10px;
+    width:30%;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+   
+}
+.add img{
+    width: 100%;
+    border-radius: 10px;
+}
+.productsshoping{
+    display: flex;
+    flex-wrap: wrap;
+    gap:32px;
+}
+.product{
+    width:200px;
+    height: 150px;
+    background-color: white;
+    padding: 10px;
+}
+.product img{
+    width: 100%;
+    height:100%;
+    object-fit: contain;
+}
+.vedio{
+    display: flex;
+    overflow-x:auto;
+    scroll-snap-type: x proximity; 
+    width: 100%;
+    scroll-behavior: smooth;
+}
+.vedioimg{
+    scroll-snap-align:start;
+    flex:0 0 100%;
+    margin: 10px;
+    border-radius: 10px;
+}
+.vedioimg img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.vedioimg video {
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+    border-radius: 10px;
+}
+.title{
+    margin-bottom:0.4rem;
+}
+.content1{
+    font-weight:500;
+    font-size:32px;
+}
+.section1containt{
+    margin-top:400px;
+    background-color: #30c3f6;
+    height:15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section1containt p{
+    font-weight: 600;
+    font-size:32px;
+    color: black;
+    -webkit-text-stroke: 0.4px white;
+}
+.movie{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    gap: 1px;
+    transform: perspective(1000px);
+    transform-style: preserve-3d;
+}
+.movie img{
+    height: 330px;
+    perspective: 1000px;
+    transition: all 0.5s;
+}
+.movie img:nth-child(1){
+    transform:rotatey(20deg);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.movie img:nth-child(1):hover{
+    scale:1.2;
+}
+.movie img:nth-child(2){
+    transform: translatez(-50px);
+}
+.movie img:nth-child(2):hover{
+    scale:1.2;
+}
+.movie img:nth-child(3){
+    transform:rotatey(-20deg);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.movie img:nth-child(3):hover{
+    scale:1.2;
+}
+.blueline{
+    padding:40px;
+}
+.hrline{
+   margin-top:130px;
+    padding:22px;
+    background-color: #30c3f6;
+    border-radius: 20px;
+}
